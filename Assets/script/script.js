@@ -90,6 +90,7 @@ function generatePassword(){
       window.alert("Wrong answer, please try again");
       generatePassword();
     }
+    console.log(newpass)
     
     //Randomize the string with a for loop//
     for(i=0; i<passLength;i++){
